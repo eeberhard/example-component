@@ -1,5 +1,5 @@
 {
-    "cmake.sourceDirectory": "/home/ros2/ws/src/template_component_package",
+    "cmake.sourceDirectory": "/Users/enricoeberhard/Dev/_tmp/workshop/example-component/source/template_component_package",
     "C_Cpp.clang_format_style": "file:/home/ros2/.clang-format",
     "python.analysis.typeCheckingMode": "basic",
     "editor.rulers": [

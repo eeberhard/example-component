@@ -10,6 +10,10 @@ class PyComponent(Component):
     def on_validate_parameter_callback(self, parameter: sr.Parameter) -> bool:
         # validate an incoming parameter value according to some criteria
         return True
+    
+    def on_step_callback(self):
+        # do something periodically
+        pass
 
     def on_execute_callback(self) -> bool:
         # If the component needs to do any post-construction behavior, invoke `self.execute()`
